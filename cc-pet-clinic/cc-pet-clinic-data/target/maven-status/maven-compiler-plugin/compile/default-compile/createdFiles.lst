@@ -1,0 +1,5 @@
+com\yokoy\petclinic\model\Owner.class
+com\yokoy\petclinic\model\Pet.class
+com\yokoy\petclinic\model\Person.class
+com\yokoy\petclinic\model\PetType.class
+com\yokoy\petclinic\model\Vet.class
