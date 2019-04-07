@@ -11,7 +11,7 @@
 
 	<properties>
 		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
-		<start-class>com.yokoy.petclinic.CcPetClinicApplication</start-class>
+		
 	</properties>
 
 	<dependencies>
@@ -53,15 +53,7 @@
                     </goals>
                 </execution>
             </executions>
-				<configuration>
-					<archive>
-						<manifest>
-							<mainClass>com.yokoy.petclinic.CcPetClinicApplication</mainClass>
-							<addClasspath>true</addClasspath>
-							<addExtensions>false</addExtensions>
-						</manifest>
-					</archive>
-				</configuration>
+				
 			</plugin>
 		</plugins>
 	</build>
