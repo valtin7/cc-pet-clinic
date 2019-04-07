@@ -1,5 +1,7 @@
 package com.yokoy.petclinic.service;
 
-public interface PetService {
+import com.yokoy.petclinic.model.Pet;
+
+public interface PetService extends CrudService<Pet, Long> {
 
 }
